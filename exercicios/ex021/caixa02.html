@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{/*Sombra Interna*/
+            box-shadow: inset 5px 3px 7px 1px rgba(0, 0, 0, 0.111);
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            border-radius: 10px;
+            /*Sombra Externa*/
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        nav > a{ /*Todo a que tiver dentro de nav*/
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        nav > a:hover{/*Quando passar mouse em cimado a que está dentro de nav*/
+            text-decoration: underline;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            
+        }
+        article > aside{ /*Todo aside que tiver dentro de article*/
+            background-color: rgb(165, 165, 165);
+        }/*
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px ou 50%;
+        }*/
+    </style>
+</head>
+<body>
+    <!--div é box-level-->
+    <!--span é inline-level-->
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre a COPA</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ipsa eaque odio maiores similique mollitia! Adipisci voluptatem, libero ducimus magni maiores necessitatibus nihil culpa sed sit corporis possimus, et quas?</p>
+                <aside>
+                    <p>Artigo escrito por Irineu.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Carlos Antonio</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

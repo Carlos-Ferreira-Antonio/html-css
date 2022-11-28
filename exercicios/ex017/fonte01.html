@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      body {
+        font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+        /* Medidas Absolutas
+        cm(centimetro), mm(milimetro),
+        in(polegada),px(pixel),
+        pt(ponto),pc(paica);
+
+        Medidas Relativa
+        em(medida relativa ao tamanho atual da fonte [16px]), ex(relativo a atura x de uma fonte), rem(relativo a fonte configurada no body), vw(largura da view port[tamanho da sua tela]porcentagem da largura da view port), vh(altura da view port), %;
+        */
+        font-size: 1em;
+        /* 16px é o temanho natural;
+        16px = 1em;
+        2em = 32px...;
+        Para font-size use: px ou em
+        font-weight: normal;
+        /* Peso da fonte:
+        lighter, normal, bold, bolder
+        font-style: italic;
+        text-decoration: underline;*/
+      }
+      h1 {
+        /*
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+        Para as configurações de fonte em uma comando só: shorthand font
+        font-style -> font-weight -> font-size -> font-family. Ex:*/
+        font: italic bolder 3em 'Work Sans', sans-serif;
+      }
+      h2 {
+        font: bold 2em 'Work Sans';
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+      deserunt illo inventore suscipit vel. Maxime aliquam impedit provident
+      quaerat enim suscipit ad sit facilis aut voluptatum, aperiam, sequi ab
+      assumenda.
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
+      repellendus impedit corrupti a excepturi pariatur. Minus et laboriosam
+      unde expedita consequuntur possimus eos architecto dignissimos provident,
+      placeat natus, veniam debitis!
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis quo
+      nisi delectus rem quae est repellendus ipsum deleniti consectetur
+      asperiores, velit praesentium debitis! Esse iure accusamus vero quia?
+      Quos, rem.
+    </p>
+  </body>
+</html>

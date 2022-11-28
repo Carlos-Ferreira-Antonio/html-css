@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com Links</title>
+  </head>
+  <body>
+    
+    <h1>Usando links externos</h1>
+    <p>
+      Você pode acessar o meu:
+      <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a>
+      
+      <p>Você também pode acessar o meu: <a href="https://youtube.com/cursoemvideo/"target="_blank" rel="external">canal gratuito no YouTube<!--links externos (sobre frase, por cima da frase)--></a></p>
+      
+    </p>
+    
+    <h1>Usando Links internos</h1>
+
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha segunda página clicando <a href="pag002.html" rel="next" target="_self">aqui</a>.</p> 
+
+    <p>Você também pode acessar a nossa página de notácias, basta clicar <a href="noticias/pag003.html" rel="next" target="_self">aqui </a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+      <li><a href="livro/aula10.pdf" download="aula10.pdf" type="application/pdf">Baixar aula 10 em PDF</a></li>
+      <!--Os navegadores não estão fazendo download de pdf pois nem todo mundo quer baixar apenas ver, então ele abre o pdf e lá tem a opção de baixar se quiser-->
+      <li><a href="livro/aula10.zip" download="aula10.zip" type="application/zip">Aula compactada em zip</a></li>
+      <!--nem tudo para download é com aplicattion tem que acessar o site iana -->
+    </ul>
+  </body>
+</html>

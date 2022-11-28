@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(205, 255, 203);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Usando Identificador(id) para fazer configurações especificas em determinada tag;
+Em HTML uso id="nomeparaidentificar" em CSS uso #nomequefoiusadonoid
+ID só pode um elemento por página
+
+Usando Classe:
+Em HTML para classe uso class=
+EM CSS para referir a classe uso ".", o ponto
+Classe em vários elementos
+*/
+
+h1 {
+  color: rgb(4, 109, 23);
+}
+
+h1#principal {
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+h2 {
+  color: rgb(27, 140, 203);
+}
+
+.basico {
+  border-style: groove;
+  border-radius: 5px;
+  color: green;
+  font-weight: normal;
+}
+.intermediario {
+  color: blue;
+  font-style: oblique;
+}
+.avancado {
+  color: red;
+  font-weight: 700;
+}
+.destaque {
+  background-color: #c5c56070;
+}
